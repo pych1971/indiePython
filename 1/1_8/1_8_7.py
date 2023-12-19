@@ -1,0 +1,12 @@
+summa=int(input())
+e100=summa//100
+summa=summa-e100*100
+e20=summa//20
+summa=summa-e20*20
+e10=summa//10
+summa=summa-e10*10
+e5=summa//5
+summa=summa-e5*5
+e1=summa
+kupyury=e100+e20+e10+e5+e1
+print(kupyury)
